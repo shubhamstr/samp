@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>menubar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="header__nav">
+                <div class="header__logo">
+                    <h2>Mysite</h2>
+                </div>      
+                <ul class="header__list" id="menu">
+                    <li class="li"><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                    <li class="li"><a href=""><i class="fa fa-info" aria-hidden="true"></i>About</a></li>
+                    <li class="li"><a href=""><i class="fa fa-folder" aria-hidden="true"></i>Services</a></li>
+                    <li class="li"><a href=""><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
+                </ul>
+                <span class="menubtn" id="menubtn" onclick="openNav()">&#9776;</span>
+                <span class="closebtn" id="closebtn" onclick="closeNav()">&times;</span>
+            </nav>
+        </header>
+        <div class="content">
+            <h3>Welcome To Shubham Web Services</h3>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
