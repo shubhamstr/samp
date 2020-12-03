@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+  height: 100vh;
+  background: #eee;
+  font-family: sans-serif;
+}
+h2 {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+h3 {
+  text-align: center;
+  padding: 30px;
+  margin: 15px;
+  width: 40%;
+  border-radius: 5px;
+  font-size: 20px;
+  background: rgb(201, 152, 152);
+}
+.box {
+  width: 60%;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(216, 182, 182);
+  padding: 40px;
+}
+input {
+  padding: 20px;
+  width: 40%;
+  margin: 5px;
+  font-size: 20px;
+  outline: rgb(99, 99, 122);
+  border-radius: 2px;
+  border: 1px solid skyblue;
+}
+.btn {
+  padding: 10px;
+  border-radius: 2px;
+  margin: 15px;
+  border: none;
+  background: rgb(57, 57, 196);
+  color: white;
+  font-size: 20px;
+  outline: rgb(99, 99, 122);
+}
+.btn:hover {
+  background: rgb(96, 96, 192);
+}
+
+@media screen and (max-width: 850px) {
+  input {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  input {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  input {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  input {
+    width: 100%;
+    font-size: 18px;
+  }
+  .box {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .box {
+    width: 80%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
