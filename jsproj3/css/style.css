@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+  background: #eee;
+  height: 100vh;
+  text-align: center;
+}
+.inner {
+  margin: auto;
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 30px;
+  padding: 30px;
+}
+input {
+  padding: 20px;
+  border-radius: 5px;
+  width: 40%;
+  margin: 10px;
+  outline: none;
+  font-size: 20px;
+}
+label {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(223, 178, 178);
+  width: 40%;
+  margin: 10px;
+  font-size: 20px;
+}
+.btn {
+  padding: 15px;
+  border-radius: 5px;
+  background: rgb(67, 67, 192);
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+.btn:hover {
+  background: rgb(118, 118, 194);
+}
+
+@media screen and (max-width: 900px) {
+  input {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 650px) {
+  input {
+    width: 80%;
+  }
+  label {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  input {
+    width: 100%;
+    font-size: 18px;
+  }
+  label {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  input {
+    font-size: 15px;
+  }
+}
