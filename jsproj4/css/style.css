@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+  height: 100vh;
+  background: #eee;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.inner {
+  width: 30%;
+  margin: auto;
+  background: rgb(163, 125, 125);
+  height: 75vh;
+  text-align: center;
+}
+input {
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  background: rgb(230, 221, 221);
+  outline:none;
+}
+span {
+  font-size: 25px;
+  padding: 20px;
+  margin: 5px;
+  width: 20px;
+  color: rgb(19, 15, 15);
+  background: rgb(230, 221, 221);
+  cursor: default;
+}

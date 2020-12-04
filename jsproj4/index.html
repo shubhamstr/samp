@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Calculator</h2>
+      <div class="inner">
+        <form name="form">
+          <input type="text" name="input" readonly /><br /><br>
+          <span onclick="form.input.value += '1'">1</span>
+          <span onclick="form.input.value +='2'">2</span>
+          <span onclick="form.input.value +='3'">3</span>
+          <span onclick="form.input.value +='/'">/</span
+          ><br /><br /><br /><br />
+          <span onclick="form.input.value +='4'">4</span>
+          <span onclick="form.input.value +='5'">5</span>
+          <span onclick="form.input.value +='6'">6</span>
+          <span onclick="form.input.value +='*'">*</span
+          ><br /><br /><br /><br />
+          <span onclick="form.input.value +='7'">7</span>
+          <span onclick="form.input.value +='8'">8</span>
+          <span onclick="form.input.value +='9'">9</span>
+          <span onclick="form.input.value +='+'">+</span
+          ><br /><br /><br /><br />
+          <span onclick="form.input.value +='0'">0</span>
+          <span onclick="form.input.value +='00'">00</span>
+          <span onclick="form.input.value +='.'">.</span>
+          <span onclick="form.input.value +='-'">-</span
+          ><br /><br /><br /><br />
+          <span onclick="form.input.value =''">clear</span>
+          <span onclick="form.input.value = eval(form.input.value)">=</span>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
