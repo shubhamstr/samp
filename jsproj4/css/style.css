@@ -28,7 +28,7 @@ input {
   margin: 20px;
   font-size: 20px;
   background: rgb(230, 221, 221);
-  outline:none;
+  outline: none;
 }
 span {
   font-size: 25px;
@@ -38,4 +38,30 @@ span {
   color: rgb(19, 15, 15);
   background: rgb(230, 221, 221);
   cursor: default;
+}
+
+@media screen and (max-width: 900px) {
+  .inner {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .inner {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .inner {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .inner {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .inner {
+    width: 100%;
+  }
 }
