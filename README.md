@@ -9,4 +9,6 @@ https://shubhamstr.github.io/samp/jsproj3/ Love Calculator
 
 https://shubhamstr.github.io/samp/jsproj4/ Calculator
 
+https://shubhamstr.github.io/samp/phpproj1/ dynamic Calculator
+
 https://shubhamstr.github.io/samp/menu1/ Menubar
